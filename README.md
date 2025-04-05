@@ -46,8 +46,6 @@ When a fire is detected using a flame sensor, FireX activates the following sequ
 - 🔉 Soundwave Generator: 6" Subwoofer driven by wave circuits  
 - 📟 Alert Module: SIM800L for SMS and Call functions  
 
-> View full source code [here](#) *(include `.ino` file in your repo)*
-
 ---
 
 ## 🧾 Bill of Materials
@@ -69,7 +67,7 @@ When a fire is detected using a flame sensor, FireX activates the following sequ
 ---
 
 ## 🧰 Setup and Installation
-1. Upload the provided `.ino` sketch to your Arduino Uno.
+1. Upload the provided `FireXsourcecode.cpp` sketch to your Arduino Uno.
 2. Connect the SIM800L module (TX/RX: Pins 2 & 3).
 3. Connect flame sensors to digital pin 5.
 4. Connect buzzer and subwoofer to output pins.
@@ -94,4 +92,4 @@ When a fire is detected using a flame sensor, FireX activates the following sequ
 
 ---
 
-> Created by Computer Engineering students for the final project in Embedded Systems Design.
+> Created by Nathaniel Llano for the final project in Embedded Systems Design.
